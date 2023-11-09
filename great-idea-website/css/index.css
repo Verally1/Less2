@@ -55,6 +55,8 @@ table {
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
+	width: 900px;
+	margin: auto;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +66,116 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+ 
+header nav {
+	text-align: center;
+	display: inline-block;
+	padding: 20px;
+	margin: auto;
+}
+
+header img {
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: 20px;
+
+}
+
+header nav a {
+	color: gray;
+	margin-left: 30px;
+	text-decoration: none;
+}
+
+.top-box {
+	/* border: 2px solid blue; */
+	margin: auto;
+	width: 880px;
+	height: 430px;
+	display: inline-block;
+	border-bottom: 1px solid black;
+}
+
+.top-box1 {
+	padding: 90px 0;
+	margin: auto;
+	height: 400px;
+	width: 400px;
+	display: inline-block;
+	box-sizing: border-box;
+	text-align: center;
+	vertical-align: top;
+}
+
+.top-box2 {
+	padding: 10px;
+	margin: auto;
+	height: 400px;
+	width: 400px;
+	display: inline-block;
+	box-sizing: border-box;
+	text-align: center;
+	vertical-align: top;
+}
+
+nav {
+	
+	font-size: 16px;
+	padding: 20px;
+}
+
+button {
+	background-color: white;
+	border: 1px solid black; 
+	color: gray;
+	padding: 5px;
+	width: 150px;
+	font-size: 16px;
+}
+
+h1  {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+.textbox {
+	margin-top: 30px;
+	padding-top: 10px;
+	margin: 5px;
+	width: 850px;
+
+}
+
+.textbox-p {
+	margin: auto;
+	padding: 10px;
+	width: 49%;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.textbox-p2 {
+	margin: auto;
+	width: 33%;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.contact {
+	border-top: 1px solid black;
+	padding-top: 30px;
+	width: 880px;
+	
+}
+
+footer {
+	font-size: 14px;
+	text-align: center;
+	padding-bottom: 100px;
+	padding-top: 50px;
+}
